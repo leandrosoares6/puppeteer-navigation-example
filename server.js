@@ -20,7 +20,7 @@ const creds = require('./creds');
   await page.evaluate(() => {
     let btns = [...document.querySelector("form").querySelectorAll("input.ZLoginButton.DwtButton")];
     btns.forEach(function (btn) {
-        if (btn.value == "Login")
+        if (btn.value === "Sign In")
             btn.click();
     });
   });

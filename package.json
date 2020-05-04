@@ -1,0 +1,11 @@
+{
+  "name": "puppeteer-navigation-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leandrosoares6/puppeteer-navigation-example.git",
+  "author": "Leandro Neves <leandrosoares6@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  }
+}
